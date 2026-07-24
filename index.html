@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pova-gamepad 按键迭代提案</title>
+    <meta name="description" content="pova-gamepad 的按键造型迭代提案。" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="progress" aria-hidden="true"><span></span></div>
+
+    <header class="hero" id="top">
+      <nav class="topbar" aria-label="页面导航">
+        <span class="brand">pova-gamepad</span>
+        <div class="navlinks">
+          <a href="#handoff">接手背景</a>
+          <a href="#surface">斜切大面</a>
+          <a href="#diamond">菱形方案</a><a href="#directions">按键方向</a>
+        </div>
+      </nav>
+
+      <section class="hero-stage">
+        <figure class="hero-product tilt-card reveal">
+          <img src="assets/hero-scope.png" alt="pova-gamepad 按键范围图" />
+        </figure>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Button Surface Iteration</p>
+          <h1>POVA-GAMEPAD<br>面板 ID 方案</h1>
+          <p class="lead">基于既定堆叠和基础布局，重新梳理面板大面、按键形态和视觉焦点。</p>
+          <div class="hero-specs" aria-label="设计关键词">
+            <div><strong>01</strong><span>接手老方案</span></div>
+            <div><strong>02</strong><span>重建斜切大面</span></div>
+            <div><strong>03</strong><span>推进按键方向</span></div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section handoff" id="handoff">
+        <div class="handoff-copy reveal">
+          <p class="eyebrow">Project Handoff</p>
+          <h2>在既定基础上，重建面板秩序。</h2>
+          <p>接手时，方案已经完成基础布局。按键位置和基础比例保持不变，优化重点转向表面语言和形态关系。</p>
+          <p>我的工作是在这个基础上重新梳理外观语言。不是推翻原有定义，而是放大整机识别度，让按键、斜切大面和 POVA 系列线索建立关系。</p>
+        </div>
+        <figure class="handoff-image reveal">
+          <img src="assets/handoff-wireframe-tight.png" alt="接手时的线框方案" />
+          <figcaption>接手时的线框方案</figcaption>
+        </figure>
+        <div class="cut-list reveal" aria-label="接手后重新判断的内容">
+          <div><strong>基础</strong><span>保留既定布局与比例</span></div>
+          <div><strong>优化</strong><span>重塑按键表面造型</span></div>
+          <div><strong>系统</strong><span>建立按键与斜切大面的关系</span></div>
+        </div>
+      </section>
+
+      <section class="section prism-source">
+        <div class="source-copy reveal">
+          <p class="eyebrow">Prism Source</p>
+          <h2>三角线索，来自 POVA 系列。</h2>
+          <p>POVA 8 Pro 5G 的相机区域已经形成明确的三角记忆点。手柄面板延续这一线索，建立系列化关联。</p>
+          <p>我把它转译成手柄上的斜切大面、底部三角区域和按键轮廓线索。</p>
+        </div>
+        <div class="pova-kv reveal" aria-label="POVA 8 Pro 5G 官方展示图">
+          <img class="phone-left" src="assets/pova-kv-phone-left.png.webp" alt="POVA 8 Pro 5G 白色官方手机图" />
+          <img class="phone-right" src="assets/pova-kv-phone-right.png.webp" alt="POVA 8 Pro 5G 绿色官方手机图" />
+          <span class="kv-caption">POVA 8 Pro 5G official visual reference</span>
+        </div>
+        <div class="transfer-steps reveal" aria-label="设计转译路径">
+          <div><span>01</span><strong>提取</strong><p>倒角三角相机元素</p></div>
+          <div><span>02</span><strong>转译</strong><p>斜切边界与三角面</p></div>
+          <div><span>03</span><strong>延展</strong><p>底部大面、按键轮廓、AI 键</p></div>
+        </div>
+      </section>
+
+      <section class="surface-scroll" id="surface" aria-label="斜切大面滚动演示">
+        <div class="surface-sticky">
+          <div class="surface-scroll-copy reveal">
+            <p class="eyebrow">Slash Surface</p>
+            <h2>底板下沉，斜切成面。</h2>
+            <p id="surface-note">01 从 POVA 手机背部读取三角线索。</p>
+          </div>
+          <div class="surface-layer-stack" aria-label="斜切大面六步变化">
+            <img class="surface-layer" src="assets/surface-step-source-1.png" alt="POVA 8 Pro 5G 三角线索第一步" />
+            <img class="surface-layer" src="assets/surface-step-source-2.png" alt="POVA 8 Pro 5G 三角线索第二步" />
+            <img class="surface-layer" src="assets/surface-step-1.png" alt="斜切大面第一步" />
+            <img class="surface-layer" src="assets/surface-step-2.png" alt="斜切大面第二步" />
+            <img class="surface-layer" src="assets/surface-step-3.png" alt="斜切大面第三步" />
+            <img class="surface-layer" src="assets/surface-step-4.png" alt="斜切大面第四步" />
+          </div>
+          <div class="surface-progress" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="diamond-scroll" id="diamond" aria-label="菱形方向键滚动演示">
+        <div class="diamond-sticky">
+          <div class="diamond-scroll-copy reveal">
+            <p class="eyebrow">Diamond Direction</p>
+            <h2>菱形方向键，承接斜切秩序。</h2>
+            <p id="diamond-note">01 从菱形动势进入方向键判断。</p>
+          </div>
+          <div class="diamond-layer-stack" aria-label="菱形方向键四步变化">
+            <img class="diamond-layer diamond-gif-layer" src="assets/diamond-grid-transition.gif" alt="菱形动态视觉引子" />
+            <img class="diamond-layer" src="assets/diamond-step-1.png" alt="菱形方向键覆盖第一步" />
+            <img class="diamond-layer" src="assets/diamond-step-2.png" alt="菱形方向键覆盖第二步" />
+            <img class="diamond-layer" src="assets/diamond-step-3.png" alt="菱形方向键覆盖第三步" />
+          </div>
+          <div class="diamond-progress" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </section>
+      <section class="ai-key-scroll" id="ai-key" aria-label="AI 按键滚动演示">
+        <div class="ai-key-sticky">
+          <div class="ai-key-copy reveal">
+            <p class="eyebrow">AI KEY FOCUS</p>
+            <h2>AI 按键，沿斜切方向被强化。</h2>
+            <p id="ai-key-note">01 在整体构成中确认 AI 按键的位置与比例。</p>
+          </div>
+          <div class="ai-key-layer-stack" aria-label="AI 按键两步变化">
+            <img class="ai-key-layer" src="assets/ai-key-step-1.png" alt="AI 按键在整体构成中的位置" />
+            <img class="ai-key-layer" src="assets/ai-key-step-2.png" alt="AI 按键斜切造型与功能焦点" />
+          </div>
+          <div class="ai-key-progress" aria-hidden="true">
+            <span></span><span></span>
+          </div>
+        </div>
+      </section>
+      <section class="section direction-matrix" id="directions">
+        <div class="section-title reveal">
+          <p class="eyebrow">Button Directions</p>
+          <h2>按键方向，在同一秩序下展开。</h2>
+          <p>每一版都回到同一个判断：方向键、AI 键和底部斜切是否能形成完整关系。</p>
+        </div>
+
+        <div class="direction-grid">
+          <article class="direction-card featured reveal">
+            <img src="assets/balanced-direction.png" alt="均衡主推方案" />
+            <div>
+              <span class="case-tag">Balanced Direction</span>
+              <h3>均衡主推方案</h3>
+              <p>菱形方向键呼应左右下角斜切，AI 键也能顺势强化，不像额外插入的功能点。</p>
+            </div>
+          </article>
+
+          <article class="direction-card reveal">
+            <img src="assets/ai-circle-focus.png" alt="AI 圆形高亮方案" />
+            <div>
+              <span class="case-tag">AI Focus</span>
+              <h3>AI 圆形高亮方案</h3>
+              <p>圆形 AI 键强化功能识别，但和斜切语言的关系变弱，更像独立功能焦点。</p>
+            </div>
+          </article>
+
+          <article class="direction-card reveal">
+            <img src="assets/conservative.png" alt="稳妥主推方案" />
+            <div>
+              <span class="case-tag">Stable Direction</span>
+              <h3>稳妥主推方案</h3>
+              <p>保留传统十字方向键，整体更稳妥。AI 键突出清楚，但系列化表达较弱。</p>
+            </div>
+          </article>
+
+          <article class="direction-card reveal">
+            <img src="assets/aggressive-1.png" alt="激进几何探索" />
+            <div>
+              <span class="case-tag">Bold</span>
+              <h3>激进几何探索</h3>
+              <p>三角和切面被进一步放大。识别度更高，但整体显得过于尖锐。</p>
+            </div>
+          </article>
+
+          <article class="direction-card reveal">
+            <img src="assets/aggressive-2.png" alt="动态方向探索" />
+            <div>
+              <span class="case-tag">Dynamic</span>
+              <h3>动态方向探索</h3>
+              <p>方向键尝试加入更多变化，但形态显得杂乱，和斜切语言的关系也变弱。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section render-showcase">
+        <div class="section-title reveal">
+          <p class="eyebrow">Render Check</p>
+          <h2>方案判断，回到使用场景。</h2>
+          <p>正视图看秩序，场景图看比例、气质和视觉焦点。</p>
+        </div>
+        <div class="render-grid">
+          <figure class="reveal"><img src="assets/diamond-scene-silver.png" alt="菱形方向键银色场景效果图" /><figcaption>银色方案场景效果</figcaption></figure>
+          <figure class="reveal"><img src="assets/diamond-scene-dark.png" alt="菱形方向键深色场景效果图" /><figcaption>深色方案场景效果</figcaption></figure>
+          <figure class="reveal render-wide"><img src="assets/diamond-scene-handheld.png" alt="菱形方向键手持使用场景" /><figcaption>手持状态下的整体比例</figcaption></figure>
+          <figure class="reveal"><img src="assets/stable-render.png" alt="稳妥主推方案效果图" /><figcaption>稳妥主推方案效果图</figcaption></figure>
+          <figure class="reveal"><img src="assets/stable-handheld.png" alt="稳妥主推方案手持效果图" /><figcaption>手持场景中的按键比例</figcaption></figure>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
